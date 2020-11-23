@@ -89,7 +89,10 @@ require (
 	gopkg.in/ldap.v3 v3.0.3
 	gopkg.in/olivere/elastic.v5 v5.0.86
 	gopkg.in/yaml.v2 v2.2.8
+	github.com/minio/minio vRELEASE.2020-11-19T23-48-16Z
 )
-
+replace(
+	github.com/minio/minio vRELEASE.2020-11-19T23-48-16Z => https://github.com/imopro/minio v1123.0.1
+)
 
 
