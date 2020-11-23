@@ -92,6 +92,4 @@ require (
 	github.com/imopro/minio/tree/iminio/cmd
 )
 
-replace (
-	
-)
+
