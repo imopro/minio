@@ -27,7 +27,7 @@ package main // import "github.com/minio/minio"
 import (
 	"os"
 
-	minio "https://github.com/imopro/minio/tree/iminio/cmd"
+	minio "github.com/imopro/minio/tree/iminio/cmd"
 
 	// Import gateway
 	_ "github.com/imopro/minio/tree/iminio/gateway"
