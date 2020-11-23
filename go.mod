@@ -89,4 +89,9 @@ require (
 	gopkg.in/ldap.v3 v3.0.3
 	gopkg.in/olivere/elastic.v5 v5.0.86
 	gopkg.in/yaml.v2 v2.2.8
+	github.com/imopro/minio/tree/iminio/cmd
+)
+
+replace (
+	
 )
