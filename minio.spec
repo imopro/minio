@@ -10,7 +10,7 @@ Release:        1
 Vendor:         MinIO, Inc.
 License:        Apache v2.0
 Group:          Applications/File
-Source0:        https://github.com/minio/minio/archive/%{tag}.tar.gz
+#Source0:        https://github.com/minio/minio/archive/%{tag}.tar.gz
 URL:            https://www.min.io/
 BuildRequires:  golang >= 1.7
 BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -21,7 +21,7 @@ BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ## Go related tags.
 %define         gobuild(o:) go build -ldflags "${LDFLAGS:-}" %{?**};
 %define         gopath          %{_libdir}/golang
-%define         import_path     github.com/minio/minio
+%define         import_path     github.com/imopro/minio/tree/iminio
 
 %description
 MinIO is an object storage server released under Apache License v2.0.
